@@ -27,6 +27,15 @@ body {
     transition: all 0.3s ease;
 }
 
+.pokemon-card.fogo {
+    border: 3px solid orange;
+}
+.pokemon-card.elétrico {
+    border: 3px solid gold;
+}
+.pokemon-card.água {
+    border: 3px solid blue;
+}
 
 .pokemon-image {
     padding: 20px;
