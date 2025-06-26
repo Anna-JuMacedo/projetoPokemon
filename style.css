@@ -7,7 +7,7 @@
 
 body {
     background-color: #f0f0f0;
-    padding: 20px;
+    padding: 100px;
 }
 
 .container {
@@ -19,6 +19,8 @@ body {
 }
 
 .pokemon-card {
+    background-color: rgb(255, 208, 0);
+    border: 3px solid rgb(255, 208, 0);
     width: 350px;
     border-radius: 15px;
     overflow: hidden;
@@ -28,13 +30,16 @@ body {
 }
 
 .pokemon-card.fogo {
-    border: 3px solid orange;
+    background-color:rgb(255, 72, 0) ;
+    border: 3px solid rgb(255, 72, 0) ;
 }
 .pokemon-card.elétrico {
-    border: 3px solid gold;
+    background-color: rgb(255, 208, 0);
+    border: 3px solid rgb(255, 208, 0);
 }
 .pokemon-card.água {
-    border: 3px solid blue;
+    background-color:rgb(86, 148, 230);
+    border: 3px solid rgb(86, 148, 230);
 }
 
 .pokemon-image {
@@ -56,6 +61,7 @@ body {
 }
 
 .pokemon-info h2 {
+    color: #333;
     font-size: 28px;
     margin-bottom: 10px;
     text-align: center;
@@ -63,11 +69,13 @@ body {
 }
 
 .pokemon-info p {
-    font-size: 18px;
+    font-size: 16px;
     margin-bottom: 15px;
 }
 
 .attacks h3 {
+    text-align: center;
+    color: #333;
     margin-bottom: 10px;
     font-size: 20px;
 }
@@ -100,7 +108,7 @@ button {
 
 #btn-pokemon-1 {
     background-color: #ffd700;
-    color: #333;
+    color: white;
 }
 
 #btn-pokemon-2 {
