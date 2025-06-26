@@ -1,4 +1,3 @@
-
 const pokemonImg = document.getElementById('pokemon-img');
 const pokemonName = document.getElementById('pokemon-name');
 const pokemonType = document.getElementById('pokemon-type');
@@ -13,10 +12,8 @@ function atualizarCard(pokemon) {
 
     attacksList.innerHTML = pokemon.ataques.map(ataque => `<li>${ataque}</li>`).join('');
 
-
     card.className = 'pokemon-card ' + pokemon.tipo.toLowerCase();
 }
-
 
 const pikachu = {
     nome: 'Pikachu',
@@ -38,7 +35,6 @@ const squirtle = {
     imagem: 'images/squirtle.jpg',
     ataques: ["Jato d'Água", 'Bolhas', 'Cauda de Água']
 };
-
 
 function mostrarPikachu() {
     atualizarCard(pikachu);
